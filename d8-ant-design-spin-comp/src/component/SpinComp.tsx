@@ -24,10 +24,12 @@ class SpinComp extends React.Component<SpinProps,SpinState> {
         return (
          <div className='loginForm'>
              <Spin
-                 spinning={this.state.isSpin}>
+                 spinning={this.state.isSpin}
+                 size='large'
+             >
              </Spin>
              <Button type='primary' onClick={this.setSpin}>spin button</Button>
-             <Spin spinning={this.state.isSpin}>
+             <Spin spinning={this.state.isSpin} size='large'>
                  <p>apple</p>
                  <p>banana</p>
                  <p>cake</p>
