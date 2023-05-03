@@ -1,0 +1,33 @@
+
+.loginForm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-size: cover;
+    background: url("https://wallpapers.com/images/featured/9qn87y9im6pv0sf9.jpg");
+}
+.formStyle{
+    background-color: rgba(255,255,255,0.33);
+    box-shadow: 0px 8px 32px 0 rgba(0, 0, 255, 0.33);
+    backdrop-filter: blur(3px);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 16px 16px 16px;
+    border-radius: 16px;
+
+}
+
+.socialLogin{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    font-size: 24px;
+    color: white;
+}
+
+.socialIcon{
+    cursor: pointer;
+}
